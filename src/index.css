@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* Add font imports */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Pacifico&display=swap');
+
+.theme1 {
+  @apply bg-[#f9f9f9] text-black font-sans;
+  font-family: 'Inter', sans-serif;
+}
+
+.theme2 {
+  @apply bg-[#121212] text-white font-serif;
+}
+
+.theme3 {
+  @apply bg-[#fffbe6] text-purple-700;
+  font-family: 'Pacifico', cursive;
+}
+
